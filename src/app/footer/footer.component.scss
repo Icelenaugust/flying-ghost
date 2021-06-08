@@ -1,0 +1,53 @@
+.list {
+    display: flex;
+    justify-content: center;
+
+    button {
+        margin-top: 3%;
+        display: inline-flex;
+        justify-content: center;
+        background-color: #6171A3;
+        border-style: none;
+        color: white;
+        padding: 20px;
+        font-size: 2vw;
+        font-family: fantasy;
+
+        
+    }
+
+    button:hover {
+        color: #12253d;
+    }
+
+}
+
+.para {
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    
+
+    p {
+        font-size: 1.5vw;
+        color: white;
+        font-family: 'Arial';
+        line-height: 1.8;
+    }
+    
+}
+
+.social-media {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+
+    span {
+        padding: 1.5%;
+        width: 3%;
+        height: 3%;
+    }
+}

@@ -1,0 +1,92 @@
+#moon {
+    animation: moonAnimation 1s infinite;
+    transform-origin: left;
+}
+
+#body {
+    animation: bodyAnimation 1s infinite;
+    transform-origin: center;
+}
+
+#head {
+    animation: headAnimation 1s infinite;
+    transform-origin: center;
+}
+
+#left-blush {
+    animation: leftBlushAnimation 1s infinite;
+}
+
+#right-blush {
+    animation: rightBlushAnimation 1s infinite;
+}
+
+@keyframes moonAnimation {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(-3deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+@keyframes bodyAnimation {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(-3deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+@keyframes headAnimation {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(3deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+@keyframes leftBlushAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-8px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rightBlushAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(8px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

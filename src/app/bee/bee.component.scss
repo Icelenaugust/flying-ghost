@@ -1,0 +1,194 @@
+.bee {
+    padding-top: 1vw;
+    padding-left: 0.5vw;
+    width: 98%;
+    aspect-ratio: 1;
+}
+
+#ring {
+    animation: ringAnimation 1s infinite;
+    transform-origin: bottom;
+}
+
+#body {
+    animation: bodyAnimation 1s infinite;
+    transform-origin: center;
+}
+
+#hair {
+    animation: hairAnimation 1s infinite;
+    transform-origin: center;
+}
+
+#back-hair {
+    animation: backHairAnimation 1s infinite;
+    transform-origin: top;
+}
+
+#left-blush {
+    animation: leftBlushAnimation 1s infinite;
+}
+
+#right-blush {
+    animation: rightBlushAnimation 1s infinite;
+}
+
+#left-wing {
+    animation: leftWingAnimation 0.2s infinite;
+    transform-origin: right;
+}
+
+#right-wing {
+    animation: rightWingAnimation 0.2s infinite;
+    transform-origin: left;
+}
+
+#left-tentacle {
+    animation: leftTentacleAnimation 1s infinite;
+    transform-origin: bottom;
+}
+
+#right-tentacle {
+    animation: rightTentacleAnimation 1s infinite;
+    transform-origin: bottom;
+}
+
+@keyframes ringAnimation {
+    0% {
+        transform: rotate(2deg);
+    }
+
+    50% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(2deg);
+    }
+}
+
+@keyframes bodyAnimation {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(-3deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+@keyframes hairAnimation {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(3deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+@keyframes backHairAnimation {
+    0% {
+        transform: rotate(2deg);
+    }
+
+    50% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(2deg);
+    }
+}
+
+@keyframes leftBlushAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-8px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rightBlushAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(8px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes leftWingAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(2deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rightWingAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rightTentacleAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(2deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes leftTentacleAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

@@ -1,0 +1,37 @@
+<div class="main" id="main">
+  <div class="tract">
+    <app-tract></app-tract>
+  </div>
+  <div class="heading">
+    <div class="ghost-block" id="app-ghost" #appGhost>
+      <app-ghost></app-ghost>
+    </div>
+    <div class="text">
+      <h1>Hello I am Mr Ghost</h1>
+    </div>
+    <div class="animated-text" id="animated-text" #animatedText>
+        <h1>Let's travel with Mr Ghost!</h1>
+    </div>
+    <div class="block" id="block">
+      <div class="pirate-block" #pirateBlock
+          (mouseenter)="mouseHover(pirateBlock)"
+          (mouseleave)="mouseLeave(pirateBlock)">
+        <app-pirate></app-pirate>
+      </div>
+      <div class="angel-block" #angelBlock
+          (mouseenter)="mouseHover(angelBlock)"
+          (mouseleave)="mouseLeave(angelBlock)">
+        <app-angel></app-angel>
+      </div>
+      <div class="bee-block" id="beeBlock" #beeBlock
+          (mouseenter)="mouseHover(beeBlock)"
+          (mouseleave)="mouseLeave(beeBlock)">
+        <app-bee></app-bee>
+      </div>
+    </div>
+    <div class="tail-block">
+      <app-footer></app-footer>
+    </div>
+  </div> 
+</div>
+
