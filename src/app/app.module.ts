@@ -10,6 +10,8 @@ import { AngelComponent } from './angel/angel.component';
 import { TractComponent } from './tract/tract.component';
 import { FooterComponent } from './footer/footer.component';
 import { FirstTextComponent } from './first-text/first-text.component';
+import { RocketComponent } from './rocket/rocket.component';
+import { FirstImageComponent } from './first-image/first-image.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { FirstTextComponent } from './first-text/first-text.component';
     AngelComponent,
     TractComponent,
     FooterComponent,
-    FirstTextComponent
+    FirstTextComponent,
+    RocketComponent,
+    FirstImageComponent
   ],
   imports: [
     BrowserModule,

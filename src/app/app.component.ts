@@ -78,14 +78,98 @@ export class AppComponent implements OnInit {
       scrollTrigger: {
         trigger: "#block",
         start: "top 80px",
-        end: "50vh 400px",
+        end: "50vh 90px",
         scrub: 1,
+        
         //markers: true,
       },
       opacity: '1',
       translateX: "68%",
+    });
+
+    var tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#rocket",
+        start: "140% bottom",
+        end: "150% 30%",
+        toggleActions: 'restart none none none',
+        //markers: true,
+      },
+    });
+    var tl2 = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#rocket",
+        start: "140% bottom",
+        end: "150% 30%",
+        toggleActions: 'restart none none none',
+        //markers: true,
+      },
+    });
+
+    tl.to("#rocket-big", { 
+      yoyo: true,
+      x:"+=7",
+      repeat: 20,
+      duration: '0.08',
+    }).to("#rocket-big", {
+      translateY: "-1500%",
+      duration: '5',
     })
 
+    tl2.to("#rocket-small", {
+      yoyo: true,
+      x:"+=5",
+      repeat: 30,
+      duration: '0.05',
+      delay: '0.3'
+    }).to("#rocket-small", {
+      translateY: "-1500%",
+      duration: '3',
+    })
+
+    gsap.to("#block-one", {
+      scrollTrigger: {
+        trigger: "#block-one",
+        start: "top 90%",
+        end: "bottom 90%",
+        scrub: 1,
+        //markers: true,
+      },
+      translateY: "-4vw",
+    });
+
+    gsap.to("#block-two", {
+      scrollTrigger: {
+        trigger: "#block-two",
+        start: "top 90%",
+        end: "bottom 90%",
+        scrub: 1,
+        //markers: true,
+      },
+      translateY: "-4vw",
+    });
+
+    gsap.to("#block-three", {
+      scrollTrigger: {
+        trigger: "#block-three",
+        start: "top 90%",
+        end: "bottom 90%",
+        scrub: 1,
+        //markers: true,
+      },
+      translateY: "-4vw",
+    });
+
+    gsap.to("#block-four", {
+      scrollTrigger: {
+        trigger: "#block-four",
+        start: "top 90%",
+        end: "bottom 90%",
+        scrub: 1,
+        //markers: true,
+      },
+      translateY: "-4vw",
+    });
   }
 }
 

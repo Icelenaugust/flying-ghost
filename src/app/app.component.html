@@ -2,6 +2,10 @@
   <div class="tract">
     <app-tract></app-tract>
   </div>
+  <div class="rocket" id="rocket">
+    <app-rocket class="rocket-big" id="rocket-big"></app-rocket>
+    <app-rocket class="rocket-small" id="rocket-small"></app-rocket>
+  </div>
   <div class="heading">
     <div class="ghost-block" id="app-ghost" #appGhost>
       <app-ghost></app-ghost>
@@ -28,6 +32,12 @@
           (mouseleave)="mouseLeave(beeBlock)">
         <app-bee></app-bee>
       </div>
+    </div>
+    <div class="first-text-block">
+      <app-first-text></app-first-text>
+    </div>
+    <div class="first-image-block" id="first-image-block">
+      <app-first-image></app-first-image>
     </div>
     <div class="tail-block">
       <app-footer></app-footer>
