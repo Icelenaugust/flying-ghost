@@ -2,6 +2,8 @@
 
 ![flying-ghost](https://user-images.githubusercontent.com/66818697/121313600-2241f980-c939-11eb-8620-ef5d12ec7fc2.gif)
 
+Website is deployed [here](https://flyingghost-b5401.web.app/).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
 ## Development server
