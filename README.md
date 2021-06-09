@@ -1,5 +1,7 @@
 # FlyingGhost
 
+![flying-ghost](https://user-images.githubusercontent.com/66818697/121313600-2241f980-c939-11eb-8620-ef5d12ec7fc2.gif)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
 ## Development server
@@ -25,4 +27,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# flying-ghost
